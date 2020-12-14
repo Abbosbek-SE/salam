@@ -441,7 +441,7 @@ class Video extends Component {
 		let matchChrome = /google inc/.test(vendor) ? userAgent.match(/(?:chrome|crios)\/(\d+)/) : null
 		let matchFirefox = userAgent.match(/(?:firefox|fxios)\/(\d+)/)
 		let matchSafari = userAgent.match()
-		return matchChrome !== null || matchFirefox !== null
+		return matchFirefox !== null
 	}
 
 	render() {
@@ -451,7 +451,7 @@ class Video extends Component {
 					background: "white", width: "30%", height: "auto", padding: "20px", minWidth: "400px",
 					textAlign: "center", margin: "auto", marginTop: "50px", justifyContent: "center"
 				}}>
-					<h1>Sorry, this works only with Google Chrome or FireFox Browsers</h1>
+					<h1>Sorry, we enabled meeting rooms with only FireFox Browsers to increase the chance of screensharing ability of the platform</h1>
 				</div>
 			)
 		}
