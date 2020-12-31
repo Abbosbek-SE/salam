@@ -6,3 +6,5 @@ Salam Web App offers realtime social-networking between your teams, friends and 
 make sure run "npm install/yarn install"
 to start: 
 run "yarn dev"
+
+More than welcome to try website: https://b-project-a2a2c.web.app/
