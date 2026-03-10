@@ -7,4 +7,3 @@ make sure run "npm install/yarn install"
 and to start: 
 run "yarn dev"
 
-More than welcome to test and try this website: https://b-project-a2a2c.web.app/
